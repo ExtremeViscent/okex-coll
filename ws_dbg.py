@@ -8,7 +8,8 @@ import threading
 import numpy as np
 from sys import getsizeof
 import os
-import time
+from time import time
+from time import sleep
 import traceback
 
 # async def hello():
@@ -139,7 +140,7 @@ if __name__ == "__main__":
         except Exception:
             print("error occured:")
             print(traceback.format_exc())
-            time.sleep(0.1)
+            sleep(0.1)
 
 
 
